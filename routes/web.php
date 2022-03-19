@@ -39,6 +39,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard', [
         'total_noticias' => $total_noticias
     ]);
+    
 })->name('dashboard');
 
 Route::resource('nota', NotaController::class);

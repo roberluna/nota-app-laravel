@@ -11,7 +11,8 @@
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                     
                     
-                                    <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
+
+                        <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
                             <div class="mt-8 text-2xl">
                                 <table class="min-w-full divide-y divide-gray-200 w-full">
                                         <thead>
