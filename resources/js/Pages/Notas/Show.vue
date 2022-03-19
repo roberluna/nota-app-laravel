@@ -2,7 +2,7 @@
     <app-layout title="Dashboard">
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                Ver noticia
+                Ver
             </h2>
         </template>
 
@@ -22,8 +22,10 @@
 						
                             <div class="min-w-full divide-y divide-gray-200 w-full">
                             <b>Titulo</b>
-                        
                             <p>{{ nota.titulo }}</p>
+
+                            <b>Categoría</b>
+                            <p>{{ nota.categoria }}</p>
 
                             <b>Contenido</b>
                             <p>{{ nota.contenido }}</p>
